@@ -1,7 +1,10 @@
+#!/usr/bin/python3
 from models.base_model import BaseModel
+import sys
+sys.path.append('..')
 
 
 class City(BaseModel):
-    """Represents a city."""
-    name = ""
+    """City class that inherits from BaseModel."""
     state_id = ""
+    name = ""
