@@ -1,7 +1,11 @@
-#!/usr/bin/python
+#!usr/bin/python3
 from models.review import Review
 import unittest
+
+'''Test Review class'''
+
 class TestReview(unittest.TestCase):
-    def test_review(self):
-        """Set up method that will run before every Test"""
+    '''Test the Review class'''
+    def test_Review(self):
+        '''Test the Review class'''
         pass

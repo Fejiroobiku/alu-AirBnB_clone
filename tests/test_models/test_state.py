@@ -1,7 +1,11 @@
-#!/usr/bin/python
-import unittest
+#!usr/bin/python3
 from models.state import State
+import unittest
+
+'''Test state class'''
+
 class TestState(unittest.TestCase):
-    def test_state(self):
-        """Set up method that will run before every Test"""
+    '''Test the state class'''
+    def test_Review(self):
+        '''Test the State class'''
         pass

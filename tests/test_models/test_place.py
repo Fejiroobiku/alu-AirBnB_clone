@@ -1,7 +1,10 @@
-#!usr/bin/python
-from models.place import Place
+#!usr/bin/python3
 import unittest
+from models.place import Place
+
+'''Test Place class'''
 class TestPlace(unittest.TestCase):
-    def test_place(self):
-        """Set up method that will run before every Test"""
+    '''Test the Place class'''
+    def test_Place(self):
+        '''Test the Place class'''
         pass

@@ -1,9 +1,12 @@
-#!usr/bin/python
-from models.city import City
+#!usr/bin/python3
 import unittest
+from models.city import City
+
+'''Test City class'''
+
 
 class TestCity(unittest.TestCase):
-    """Test class for City"""
-    def test_city(self):
-        """Set up method that will run before every Test"""
-        pass
+    '''Test the City class'''
+
+    def test_City(self):
+        '''Test the City class'''

@@ -1,8 +1,11 @@
-#!/usr/bin/python
-import unittest
+#!usr/bin/python3
 from models.user import User
+import unittest
+
+'''Test User class'''
 
 class TestUser(unittest.TestCase):
-    def test_user(self):
-        """Set up method that will run before every Test"""
+    '''Test the User class'''
+    def test_User(self):
+        '''Test the User class'''
         pass

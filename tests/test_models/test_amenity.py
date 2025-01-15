@@ -1,9 +1,9 @@
-#!usr/bin/python
+#!/usr/bin/python3
 import unittest
 from models.amenity import Amenity
 
+'''Test Amenity class'''
 class TestAmenity(unittest.TestCase):
-    """Test class for Amenity"""
+    '''Test the Amenity class'''
     def test_Amenity(self):
-        """Set up method that will run before every Test"""
-        pass
+        '''Test the Amenity class'''
